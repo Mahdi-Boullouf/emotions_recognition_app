@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
               style: ButtonStyle(
                   shape: MaterialStatePropertyAll(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8)))))),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
